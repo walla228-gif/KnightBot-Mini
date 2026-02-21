@@ -21,7 +21,7 @@ module.exports = {
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
     autoRead: false,
-    autoTyping: false,
+    autoTyping: true,
     autoBio: false,
     autoSticker: false,
     autoReact: false,
@@ -44,8 +44,8 @@ module.exports = {
       welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
       goodbye: false,
       goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
-      antiSpam: false,
-      antidelete: false,
+      antiSpam: true,
+      antidelete: true,
       nsfw: false,
       detect: false,
       chatbot: false,
